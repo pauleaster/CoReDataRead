@@ -1,3 +1,8 @@
+import tarfile
+import h5py
+from filelock import FileLock
+
+
 def numerical_relativity_postmerger_waveform(**waveform_kwargs):
 
 # <Start snip>
